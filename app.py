@@ -70,7 +70,7 @@ def index():
             error = "Please enter a paragraph."
         else:
             try:
-                prompt = f"""Generate 10 to 12 high-quality questions based on the following paragraph:
+                prompt = f"""Generate 10 to 12  questions with numbering based on the following paragraph:
 
 {paragraph}
 
